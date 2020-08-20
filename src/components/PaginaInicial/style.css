@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster&family=Righteous&display=swap');
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+.btn {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.btn button {
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Bangers', cursive;
+    border-radius: 13px;
+    background: rgb(173, 171, 171);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 h1 {
+    font-family: 'Righteous', cursive;
+    font-weight: lighter;
+    font-size: 50px;
+    text-shadow: 1px 1px 5px black;
+   
+}
+
+.frontend:hover {
+  background: #2ecc71;
+  color: #145730 ;
+  box-shadow: 3px 6px 6px 3px rgba(0, 0, 0, 0.2);
+}
+
+.backend:hover {
+    background: #d35400;
+    color: #f1c40f ;
+    box-shadow: 3px 6px 6px 3px rgba(0, 0, 0, 0.2);
+  }
